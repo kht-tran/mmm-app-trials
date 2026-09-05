@@ -5,6 +5,8 @@ This project analyzes daily marketing and app-trial data to answer a core busine
 
 Two complementary modeling approaches - a classical OLS marketing mix model and a Bayesian MMM (Google Meridian) - are used to estimate channel contribution, quantify diminishing returns, and produce an optimized budget allocation.
 
+*[Completed as part of a team assignment. I led the analysis and modeling work reflected in this repository.]*
+
 ## Approach/Methods
 - **OLS Marketing Mix Model**: daily model with adstock transformations, saturation curves, autoregressive lags, and an explicit TV × search interaction term to capture the "second-screen" effect (TV driving search demand).
 - **Separation analysis**: two-stage modeling to disentangle overlapping/correlated channels (e.g. always-on vs. broad search).
